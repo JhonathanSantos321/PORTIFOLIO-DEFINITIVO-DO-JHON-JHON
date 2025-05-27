@@ -1,3 +1,11 @@
+function somar(){
+    let  num1 = Number(window.prompt("digite aqui o primeiro numero"));
+    let  num2 = Number(window.prompt("digite aqui o segundo numero"));
+
+    let resultado = num1 + num2 ;
+    alert("O resultado da soma é " + resultado + ".")
+}
+
 let num1;
 let num2;
 let resultado;
