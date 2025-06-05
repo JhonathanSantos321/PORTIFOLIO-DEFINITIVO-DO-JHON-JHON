@@ -2,7 +2,6 @@ let nomealuno;
 
 nomealuno = (window.prompt("digite aqui seu nome"));
 
-let resultado
 alert("seu nome é " + nomealuno + ".")
 
 var nota1 = Number(window.prompt("digite sua nota: "));
@@ -16,18 +15,11 @@ alert("media final " + total);
 if(total >= 60){
     alert(" voce atingiu a media " + total );
     alert( + nomealuno + " aprovado ");
+
+var pontosfaltando = (total)-180;
 }else {
     alert("reprovado faltaram" + pontosfaltando + " pontos ");
 }
-
-
-
-
-
-
-
-
-
 
 
   
