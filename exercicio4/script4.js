@@ -9,6 +9,10 @@ function calcular(){
     if(contador == 12)
         alert("vai dar para jogar o campeonato");
 
+    if(equipes >=4) {
+        alert("E possivel formar 4 equipes.O campeonato pode iniciar");
+    }
+
     
 
 }
