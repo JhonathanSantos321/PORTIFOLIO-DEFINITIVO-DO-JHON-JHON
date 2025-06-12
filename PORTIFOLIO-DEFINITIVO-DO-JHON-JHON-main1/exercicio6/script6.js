@@ -1,6 +1,5 @@
 let cliques = 0;
 let mostraHTML = document.getElementById("mostraHTML");
-let zerar 
 
 function contador(){
     
