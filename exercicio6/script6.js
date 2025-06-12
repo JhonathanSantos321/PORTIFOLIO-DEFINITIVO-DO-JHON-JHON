@@ -11,3 +11,16 @@ function contador(){
     
     
 }
+
+function zero(){
+
+    cliques = 0;
+
+    
+
+  mostraHTML.innerHTML = `<p> Numero de cliques: ${cliques}</p>`;
+    console.log(cliques);
+
+
+
+}
